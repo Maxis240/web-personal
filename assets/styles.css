@@ -1,0 +1,54 @@
+body {
+    color: #777777;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.625em;
+    position: relative;
+}
+
+#header{
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    transition: all 0.5s;
+    z-index: 997;
+    background: #fff;
+}
+
+.main-menu {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.nav-menu > li {
+      margin-left: 10px;
+      float: left;
+}
+
+.nav-menu li {
+      position: relative;
+      white-space: nowrap;
+}
+
+.nav-menu, .nav-menu *{
+      margin: 0;
+      padding: 0;
+      list-style: none;
+} 
+
+.nav-menu a {
+    padding: 0 8px 0px 8px;
+    text-decoration: none;
+    display: inline-block;
+    color: #222;
+    font-weight: 500;
+    font-size: 12px;
+    text-transform: uppercase;
+    outline: none;
+}
+
+.banner-area{
+    background: #f9f9ff;
+}
